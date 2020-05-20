@@ -612,7 +612,7 @@ Ranking List
 {
 	border: 0.5px solid rgba(65, 65, 65, 0.589);
 	border-radius: 5px;
-	background-color: orange;
+	background-color: rgb(228, 160, 35);
 }
 
 .ranking-list ul
@@ -625,6 +625,8 @@ Ranking List
 	list-style: none;
 	color: black;
 	border-bottom: 1px solid rgba(65, 65, 65, 0.589);
+	height: 35px;
+	padding-top: 5px;
 }
 
 .ranking-list span:first-child
