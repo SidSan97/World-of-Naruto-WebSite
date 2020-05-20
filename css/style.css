@@ -288,8 +288,22 @@ Header section
 	text-align: right;
 }
 
-.header-add img {
-	height: 100%;
+.header-add p
+{
+	color: white;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+
+.header-add button
+{
+	margin-right: 115px;
+	border: none;
+    height: 40px;
+    width: 75px;
+    border-radius: 8px;
+	background-color: #10ddb4;
+	color: #161616;
 }
 
 /*------------------
