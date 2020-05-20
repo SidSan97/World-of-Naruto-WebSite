@@ -9,8 +9,8 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-/*@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
-*/
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
 html,
 body {
 	height: 100%;
