@@ -54,7 +54,7 @@
 		</ul>
 		<div class="header-add">
 			<p>Login/Cadastro</p>
-			<button><i class="fas fa-user"></i> Entrar </button>
+			<button><a href="cadastrar.php"><i class="fas fa-user"></i> Entrar </a></button>
 		</div>
 	</header>
 	<!-- Header section end -->
