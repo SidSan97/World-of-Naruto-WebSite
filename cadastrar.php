@@ -124,7 +124,8 @@
 				<!--a href="#"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a-->
 			</div>
 		</div>
-    </div>
+	</div>
+</div>	
     <!-- Footer section end -->
 
     <!--====== Javascripts & Jquery ======-->
