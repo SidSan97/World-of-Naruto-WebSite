@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>World of Naruto</title>
+	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="TheQuest Gaming Magazine Template">
 	<meta name="keywords" content="gaming, html">
@@ -24,6 +24,7 @@
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/login.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -54,9 +55,31 @@
 		</ul>
 	</header>
 	<!-- Header section end -->
-	
+
+	<section id="section-login">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg">
+					<div class="quadro-login">
+						<h3 align="center">Entrar</h3>
+						<form action="" class="form-login" method="POST">
+							<input type="text" placeholder="Nome de usuario" name="usuario" class="input">
+							<input type="password" placeholder="Digite sua senha" name="senha" class="input">
+							<label id="checkword">
+								<input type="checkbox">
+								Lembrar senha
+							</label>
+
+							<button>Entrar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 <!-- Footer section -->
-<div class="footer-section">
+<div class="footer-section" style="margin-top: 40%;">
 		<div class="container">
 			<p class="text-rodape">
 			  World of Naruto é uma brincadeira entre fãs de Naruto e Ragnarok, não é um produto comercial, 
