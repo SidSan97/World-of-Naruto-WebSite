@@ -71,7 +71,7 @@ session_start();
 							</label>
 
 							<div style="width: 100%; display: flex; justify-content:center">
-								<button class="btn-form">Entrar</button>
+								<button class="btn-form mb-3" type="submit">Entrar</button>
 							</div>
 						</form>
 
