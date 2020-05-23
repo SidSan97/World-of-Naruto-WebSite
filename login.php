@@ -58,7 +58,7 @@
 				<div class="col-lg offset-xl-1 offset-lg-1 offset-md-2 offset-sm-1 offset-1 mb-3">
 					<div class="quadro-login">
 						<h3 align="center">Login</h3>
-						<form action="" class="form-login" method="POST">
+						<form action="login_user.php" class="form-login" method="POST">
 							<input type="text" placeholder="Nome de usuario" name="username" class="input mb-4">
 							<input type="password" placeholder="Digite sua senha" name="senha" class="input mb-3">
 							<label id="checkword">
