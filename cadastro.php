@@ -4,10 +4,10 @@ include('conexao.php');
 
 $nome      = mysqli_real_escape_string($conexao, trim($_POST['nome']));
 $sobrenome = mysqli_real_escape_string($conexao, trim($_POST['sobrenome']));
+$email     = mysqli_real_escape_string($conexao, $_POST['email']);
 $username = mysqli_real_escape_string($conexao, trim($_POST['username']));
 $senha     = mysqli_real_escape_string($conexao, trim(md5($_POST['senha'])));
 $senha2    = mysqli_real_escape_string($conexao, trim(md5($_POST['senha2'])));
-$email     = mysqli_real_escape_string($conexao, $_POST['email']);
 
 //CONSULTA SE HÁ OUTRO USUARIO COM MESMO NOME DE USUARIO
 $sql = "SELECT * FROM usuario WHERE username = '{$username}'";
@@ -52,7 +52,7 @@ $sql = "INSERT INTO usuario (nome, sobrenome, email, username, senha, data_cadas
 if($conexao->query($sql) === TRUE)
 {
     $_SESSION['status_cadastro'] = true;
-    //echo "Cadastro feito com sucesso!";
+    echo "Cadastro feito com sucesso!";
 } 
 
 else{
