@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -70,6 +74,18 @@
 								<button class="btn-form">Entrar</button>
 							</div>
 						</form>
+
+						<?php
+                    		if(isset($_SESSION['nao_autenticado'])):
+                  		?>
+							<div class="notification">
+								<p align="center">ERRO: Usuário ou senha inválidos.</p>
+							</div>
+                    
+						<?php
+							endif;
+							unset($_SESSION['nao_autenticado']);
+						?>
 					</div>
 				</div>
 

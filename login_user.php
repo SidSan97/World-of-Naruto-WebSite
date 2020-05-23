@@ -20,7 +20,7 @@ $row = mysqli_num_rows($result);
 
 if($row == 1)
 {
-	$_SESSION['usuario'] = $usuario;
+	$_SESSION['username'] = $usuario;
 	header('Location: index.php');
 	exit();
 } 

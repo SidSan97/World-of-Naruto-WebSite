@@ -58,18 +58,19 @@ include('verifica_login.php');
 		<div class="header-add">
 			<!--p>Login/Cadastro</p>
 			<button><a href="login.php"><i class="fas fa-user"></i> Entrar </a></button-->
-			<?php
-                     if(isset($_SESSION['nao_autenticado'])):               
-                   ?>
+					<?php
+                    	if(isset($_SESSION['nao_autenticado'])):               
+					?>
+					
                    <div id="label">
                     <p>Login/Cadastro</p> <button><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
                    </div>
 
-                   <?php
+                    <?php
                       else:                      
-                   ?>
+                    ?>
                     <div id="label">
-                     <p> Olá, <?php echo $_SESSION['usuario']; ?></p> <button><a href="logout.php"> <i class="fas fa-user"></i> Sair </a></button>
+                     <p> Olá, <?php echo $_SESSION['username']; ?></p> <button><a href="logout.php"> <i class="fas fa-user"></i> Sair </a></button>
                     </div>                                          
                      
                     <?php

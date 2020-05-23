@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -57,6 +61,32 @@
                 <div class="col-lg-4 mb-5"><h3 align="left">Faça o seu cadastro</h3></div>
                 <div class="col-lg">             
                     <form action="cadastro.php" method="POST">
+
+				<?php
+              if(isset($_SESSION['status_cadastro'])):
+             ?>
+             <div class="notification2" style="background-color: green;">
+                 <span>Cadastro efetuado!</span><br>
+                 <span>Faça o login clicando <a href="login.php">aqui</a></span> 
+             </div>
+
+             <?php
+              endif;
+              unset($_SESSION['status_cadastro']);        
+             ?>
+
+             <?php 
+              if(isset($_SESSION['usuario_existe'])):
+             ?>                     
+             <div class="notification2" style="background-color: red">
+               <p>Usuário já existe. Cheque novamente os dados!</p>
+             </div>
+
+             <?php
+              endif;           
+              unset($_SESSION['usuario_existe']);
+			 ?>
+			 
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
                                 <label for="nome">Informe seu nome</label>
