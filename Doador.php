@@ -40,21 +40,19 @@
 
 	<!-- Header section -->
 	<header class="header-section">
-		<a href="index.html" class="site-logo">
+		<a href="index.php" class="site-logo">
 			<img src="img/logo.png" alt="logo">
 		</a>
 		<ul class="main-menu">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="characters.html">Sobre Nós</a></li>
 			<li><a href="game.html">Sobre o Jogo</a></li>
-			<li><a href="reviews.html">Download</a></li>
-			<!--li><a href="news.html">Forúm</a></li-->
-			<li><a href="single-post.html">Seja um Doador</a></li>
-			<!--li><a href="single-post.html">Login/Cadastro</a></li-->
+			<li><a href="Download.php">Download</a></li>			
+			<li><a href="Doador.php">Seja um Doador</a></li>
 		</ul>
 		<div class="header-add">
 			<p>Login/Cadastro</p>
-			<button><i class="fas fa-user"></i> Entrar </button>
+			<button><a href="login.php"><i class="fas fa-user"></i> Entrar </a></button>
 		</div>
 	</header>
 	<!-- Header section end -->
@@ -96,7 +94,7 @@
 					<div class="blog-post featured-post" style="text-align: center">
 						<img src="img/blog/1.png" alt="">
 						<h3>Ajude-nos a manter esse sonho vivo</h3>
-						<p>Word of Naruto é um jogo multiplayer feito por fãs do anime que também amam RPG e jogos MOBA. por essa questão esse fân game precisa muito do axilio de todos para cobrir os gastos do projeto e poder melhora-lo cada vez mais, onde todos os ganhos serão onvertidos para poder proporcionar uma jogatina cada vez melhor para cada jogador, como recompença por nos ajudar seram adicionados alguns itens e skills para poder melhorar ainda mais a gameplay.<br>Muito obrigado desde já em nome de toda a equipe WON.</p>
+						<p>Word of Naruto é um jogo multiplayer feito por fãs do anime que também amam RPG e jogos MOBA. Por essa questão esses fãs precisam muito do auxilio de todos para cobrir os gastos do projeto e poder melhora-lo cada vez mais, onde todos os ganhos serão convertidos para poder proporcionar uma jogatina cada vez melhor para cada jogador, como recompensa por nos ajudar serão adicionados alguns itens e skills para poder melhorar ainda mais sua gameplay.<br>Muito obrigado desde já em nome de toda a equipe WON.</p>
 						<br>
 						<br>
 						<a href="#" class="site-btn">Seja um doador!</a>

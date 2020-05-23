@@ -47,10 +47,8 @@
 			<li><a href="index.html">Home</a></li>
 			<li><a href="characters.html">Sobre Nós</a></li>
 			<li><a href="game.html">Sobre o Jogo</a></li>
-			<li><a href="reviews.html">Download</a></li>
-			<!--li><a href="news.html">Forúm</a></li-->
-			<li><a href="single-post.html">Seja um Doador</a></li>
-			<!--li><a href="single-post.html">Login/Cadastro</a></li-->
+			<li><a href="Download.php">Download</a></li>			
+			<li><a href="Doador.php">Seja um Doador</a></li>
 		</ul>
 		<div class="header-add">
 			<p>Login/Cadastro</p>

@@ -40,21 +40,19 @@
 
 	<!-- Header section -->
 	<header class="header-section">
-		<a href="index.html" class="site-logo">
+		<a href="index.php" class="site-logo">
 			<img src="img/logo.png" alt="logo">
 		</a>
 		<ul class="main-menu">
-			<li><a href="index.php">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="characters.html">Sobre Nós</a></li>
 			<li><a href="game.html">Sobre o Jogo</a></li>
-			<li><a href="Download.php">Download</a></li>
-			<!--li><a href="news.html">Forúm</a></li-->
-			<li><a href="single-post.html">Seja um Doador</a></li>
-			<!--li><a href="single-post.html">Login/Cadastro</a></li-->
+			<li><a href="Download.php">Download</a></li>			
+			<li><a href="Doador.php">Seja um Doador</a></li>
 		</ul>
 		<div class="header-add">
 			<p>Login/Cadastro</p>
-			<button><i class="fas fa-user"></i> Entrar </button>
+			<button><a href="login.php"><i class="fas fa-user"></i> Entrar </a></button>
 		</div>
 	</header>
 	<!-- Header section end -->
@@ -136,12 +134,12 @@
 								</tbody>
 							</table>
 						</div>
-						<p>Word of Naruto é um verão adaptada, onde o mesmo so pode ser executado em verções apenas do windows sendo assim não possui compactibilidade com o sistema operacional linux</p>
+						<p>Word of Naruto é um versão adaptada, onde o mesmo só pode ser executado no windows. Logo não possui compatibilidade com o sistema operacional Linux</p>
 
 						<div class="video-section">
 							<div class="container">
 								<div class="video-logo">
-								<p>Tutorial como realizar a instalação executando corretamente o jogo e também como criar o personagem com a conta criada no site</p>
+								<p>Tutorial como realizar a instalação correta do jogo e também como criar o personagem com a conta criada no site</p>
 								</div>
 								<div class="video-popup-warp">
 									<img src="img/video-bg.jpg" alt="">
