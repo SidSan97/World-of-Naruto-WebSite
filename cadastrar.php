@@ -89,7 +89,7 @@
 
                             <div class="col-lg-6 mb-3">                      
                                 <label for="senha">Repita a senha informada</label> 
-                                <input type="password" class="col">
+                                <input type="password" class="col" name="senha2">
                             </div>                       
                         </div>
                         
