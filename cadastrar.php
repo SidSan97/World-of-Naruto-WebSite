@@ -56,7 +56,7 @@
             <div class="row">  
                 <div class="col-lg-4 mb-5"><h3 align="left">Faça o seu cadastro</h3></div>
                 <div class="col-lg">             
-                    <form action="" method="POST" name="cadastrar-form">
+                    <form action="cadastro.php" method="POST">
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
                                 <label for="email">Informe seu nome</label>
