@@ -59,12 +59,12 @@
                     <form action="cadastro.php" method="POST">
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
-                                <label for="email">Informe seu nome</label>
+                                <label for="nome">Informe seu nome</label>
                                 <input type="text" name="nome" id="nome" class="col">
                             </div>
 
                             <div class="col-lg-6 mb-3">                      
-                                <label for="email">Informe seu sobrenome</label> 
+                                <label for="sobrenome">Informe seu sobrenome</label> 
                                 <input type="text" name="sobrenome" id="sobrenome"class="col">
                             </div>                       
                         </div> 
@@ -76,19 +76,19 @@
                             </div>
 
                             <div class="col-lg-6 mb-3">                      
-                                <label for="email">Escolha aqui seu nome de usuário</label> 
+                                <label for="username">Escolha aqui seu nome de usuário</label> 
                                 <input type="text" name="username" id="username"class="col">
                             </div>                       
                         </div>
                         
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
-                                <label for="email">Digite sua senha</label>
+                                <label for="senha">Digite sua senha</label>
                                 <input type="password" name="senha" id="senha" class="col">
                             </div>
 
                             <div class="col-lg-6 mb-3">                      
-                                <label for="email">Repita a senha informada</label> 
+                                <label for="senha">Repita a senha informada</label> 
                                 <input type="password" class="col">
                             </div>                       
                         </div>
