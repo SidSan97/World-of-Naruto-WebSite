@@ -1,7 +1,7 @@
 <?php
 /*session_start();*/
 
-if(!isset($_SESSION['usuario']))
+if(!isset($_SESSION['username']))
 {
   $_SESSION['nao_autenticado'] = true;
 	/*header('Location: index.php');
