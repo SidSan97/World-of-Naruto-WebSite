@@ -41,7 +41,7 @@ if($senha !== $senha2)
     exit;
 }
 
-$sql = "INSERT INTO usuario (nome, sobrenome, email, username, senha, data_cadastro,) VALUES (
+$sql = "INSERT INTO usuario (nome, sobrenome, email, username, senha, data_cadastro) VALUES (
                     '" . $nome . "', 
                     '" . $sobrenome . "',
                     '" . $email . "', 
