@@ -72,8 +72,8 @@ session_start();
                             </div>
 
                         <?php
-                        endif;
-                        unset($_SESSION['status_cadastro']);        
+                         endif;
+                         unset($_SESSION['status_cadastro']);        
                         ?>
 
                         <?php 
@@ -84,8 +84,8 @@ session_start();
                             </div>
 
                         <?php
-                        endif;           
-                        unset($_SESSION['usuario_existe']);
+                         endif;           
+                         unset($_SESSION['usuario_existe']);
                         ?>
 			 
                         <div class="row mb-3">
@@ -120,7 +120,7 @@ session_start();
 
                             <div class="col-lg-6 mb-3">                      
                                 <label for="senha">Repita a senha informada</label> 
-                                <input type="password" class="col" name="senha2">
+                                <input type="password" class="col" name="senha2" id="senha2">
                             </div> 
                             
                             <?php 
