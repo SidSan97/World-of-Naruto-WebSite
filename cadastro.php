@@ -5,12 +5,12 @@ include('conexao.php');
 $nome      = mysqli_real_escape_string($conexao, trim($_POST['nome']));
 $sobrenome = mysqli_real_escape_string($conexao, trim($_POST['sobrenome']));
 $email     = mysqli_real_escape_string($conexao, $_POST['email']);
-$username = mysqli_real_escape_string($conexao, trim($_POST['username']));
+$usuario = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
 $senha     = mysqli_real_escape_string($conexao, trim(md5($_POST['senha'])));
 $senha2    = mysqli_real_escape_string($conexao, trim(md5($_POST['senha2'])));
 
 //CONSULTA SE HÁ OUTRO USUARIO COM MESMO NOME DE USUARIO
-$sql = "SELECT * FROM usuario WHERE username = '{$username}'";
+$sql = "SELECT * FROM usuario WHERE usuario = '{$usuario}'";
 $result = mysqli_query($conexao, $sql);
 $row = mysqli_fetch_assoc($result);
 
@@ -41,11 +41,11 @@ if($senha !== $senha2)
     exit;
 }
 
-$sql = "INSERT INTO usuario (nome, sobrenome, email, username, senha, data_cadastro) VALUES (
+$sql = "INSERT INTO usuario (nome, sobrenome, email, usuario, senha, data_cadastro) VALUES (
                     '" . $nome . "', 
                     '" . $sobrenome . "',
                     '" . $email . "', 
-                    '" . $username . "', 
+                    '" . $usuario . "', 
                     '" . $senha . "',                 
                     NOW())";
 

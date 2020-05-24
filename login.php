@@ -63,7 +63,7 @@ session_start();
 					<div class="quadro-login">
 						<h3 align="center">Login</h3>
 						<form action="login_user.php" class="form-login" method="POST">
-							<input type="text" placeholder="Nome de usuario" name="username" class="input mb-4">
+							<input type="text" placeholder="Nome de usuario" name="usuario" class="input mb-4">
 							<input type="password" placeholder="Digite sua senha" name="senha" class="input mb-3">
 							<label id="checkword">
 								<input type="checkbox">

@@ -106,8 +106,8 @@ session_start();
                             </div>
 
                             <div class="col-lg-6 mb-3">                      
-                                <label for="username">Escolha aqui seu nome de usuário</label> 
-                                <input type="text" name="username" id="username"class="col">
+                                <label for="usuario">Escolha aqui seu nome de usuário</label> 
+                                <input type="text" name="usuario" id="usuario"class="col">
                             </div>                       
                         </div>
                         

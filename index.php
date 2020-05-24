@@ -70,7 +70,7 @@ include('verifica_login.php');
                       else:                      
                     ?>
                     <div id="label">
-                     <p> Olá, <?php echo $_SESSION['username']; ?></p> <button><a href="logout.php"> <i class="fas fa-user"></i> Sair </a></button>
+                     <p> Olá, <?php echo $_SESSION['usuario']; ?></p> <button><a href="logout.php"> <i class="fas fa-user"></i> Sair </a></button>
                     </div>                                          
                      
                     <?php
