@@ -77,4 +77,40 @@ include('verifica_login.php');
                     ?>                                               
 		</div>
 	</header>
-	<!-- Header section end -->
+    <!-- Header section end -->
+    
+    <!-- Footer section -->
+	<div class="footer-section">
+		<div class="container">
+			<p class="text-rodape">
+			  World of Naruto é uma brincadeira entre fãs de Naruto e Ragnarok, não é um produto comercial, 
+			  não tem fins comerciais nem lucrativos e está restrito a ser um passa-tempo lúdico. <br> 
+			  Copyright BORUTO: NARUTO NEXT GENERATIONS © 2002 MASASHI KISHIMOTO/ 2017 BORUTO All Right Reserved <br>
+			  Template created by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+			</p>		
+		</div>
+		<div class="social-links-warp">
+			<div class="container">
+				<div class="social-links" style="display: flex; justify-content: center;">
+					<a href="#"><i class="fab fa-instagram"></i><span>instagram</span></a>
+					<a href="#"><i class="fab fa-pinterest"></i><span>pinterest</span></a>
+					<a href="#"><i class="fab fa-facebook"></i><span>facebook</span></a>
+					<!--a href="#"><i class="fa fa-twitter"></i><span>twitter</span></a-->
+					<a href="#"><i class="fab fa-youtube"></i><span>youtube</span></a>
+					<!--a href="#"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer section end -->
+															
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+ </body>
+</html>
