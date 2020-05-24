@@ -91,36 +91,36 @@ session_start();
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
                                 <label for="nome">Informe seu nome</label>
-                                <input type="text" name="nome" id="nome" class="col">
+                                <input type="text" name="nome" id="nome" class="col" maxlength="45" required>
                             </div>
 
                             <div class="col-lg-6 mb-3">                      
                                 <label for="sobrenome">Informe seu sobrenome</label> 
-                                <input type="text" name="sobrenome" id="sobrenome"class="col">
+                                <input type="text" name="sobrenome" id="sobrenome"class="col" maxlength="45" required>
                             </div>                       
                         </div> 
                         
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
                                 <label for="email">Informe seu email</label>
-                                <input type="email" name="email" id="email" class="col">
+                                <input type="email" name="email" id="email" class="col" required maxlength="60">
                             </div>
 
                             <div class="col-lg-6 mb-3">                      
                                 <label for="usuario">Escolha aqui seu nome de usuário</label> 
-                                <input type="text" name="usuario" id="usuario"class="col">
+                                <input type="text" name="usuario" id="usuario"class="col" required maxlength="30">
                             </div>                       
                         </div>
                         
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
                                 <label for="senha">Digite sua senha</label>
-                                <input type="password" name="senha" id="senha" class="col">
+                                <input type="password" name="senha" id="senha" class="col" required maxlength="25">
                             </div>
 
                             <div class="col-lg-6 mb-3">                      
                                 <label for="senha">Repita a senha informada</label> 
-                                <input type="password" class="col" name="senha2" id="senha2">
+                                <input type="password" class="col" name="senha2" id="senha2" required maxlength="25">
                             </div> 
                             
                             <?php 
