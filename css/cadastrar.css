@@ -52,3 +52,45 @@ body {
     border-color: #00d8c9;
     background-color: #02050e;
 }
+
+.notification
+{
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: rgb(231, 47, 47);
+    margin-left: 2%;
+}
+
+.notification p
+{
+    font-weight: 500;
+    color: white;
+}
+
+.notification2
+{
+    height: auto;
+    width: 50%;
+    border-radius: 5px;
+    padding-top: 3px;
+    background-color: rgb(6, 124, 36);
+    display: flex;
+    justify-content: center;
+}
+
+.notification2 span
+{
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.notification2 a
+{
+    font-weight: 500;
+    color: rgb(20, 20, 20);
+}

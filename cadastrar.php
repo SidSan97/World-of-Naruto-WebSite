@@ -62,30 +62,31 @@ session_start();
                 <div class="col-lg">             
                     <form action="cadastro.php" method="POST">
 
-				<?php
-              if(isset($_SESSION['status_cadastro'])):
-             ?>
-             <div class="notification2" style="background-color: green;">
-                 <span>Cadastro efetuado!</span><br>
-                 <span>Faça o login clicando <a href="login.php">aqui</a></span> 
-             </div>
+                        <?php
+                        if(isset($_SESSION['status_cadastro'])):
+                        ?>
+                            <div class="notification2">
+                                <span>Cadastro efetuado! <br>
+                                    Faça o login clicando <a href="login.php">aqui</a>
+                                </span> 
+                            </div>
 
-             <?php
-              endif;
-              unset($_SESSION['status_cadastro']);        
-             ?>
+                        <?php
+                        endif;
+                        unset($_SESSION['status_cadastro']);        
+                        ?>
 
-             <?php 
-              if(isset($_SESSION['usuario_existe'])):
-             ?>                     
-             <div class="notification2" style="background-color: red">
-               <p>Usuário já existe. Cheque novamente os dados!</p>
-             </div>
+                        <?php 
+                        if(isset($_SESSION['usuario_existe'])):
+                        ?>                     
+                            <div class="notification" style="width: 50%; padding-top: 3px; margin-left: 1%">
+                                <p>Usuário já existe. Cheque novamente os dados!</p>
+                            </div>
 
-             <?php
-              endif;           
-              unset($_SESSION['usuario_existe']);
-			 ?>
+                        <?php
+                        endif;           
+                        unset($_SESSION['usuario_existe']);
+                        ?>
 			 
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
@@ -120,7 +121,22 @@ session_start();
                             <div class="col-lg-6 mb-3">                      
                                 <label for="senha">Repita a senha informada</label> 
                                 <input type="password" class="col" name="senha2">
-                            </div>                       
+                            </div> 
+                            
+                            <?php 
+                              if(isset($_SESSION['senhas_diferentes'])):
+                            ?>   
+
+                                <div class="notification">
+                                    <p> As senhas inseridas são diferentes </p>
+                                </div>
+
+                                <script src="js/ScriptSite.js"></script>          
+
+                            <?php
+                                endif;           
+                                unset($_SESSION['senhas_diferentes']);
+                            ?>
                         </div>
                         
                         <button type="submit" class="btn-form">Concluido</button>
