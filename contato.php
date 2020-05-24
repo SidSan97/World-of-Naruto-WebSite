@@ -28,7 +28,8 @@ include('verifica_login.php');
 	<link rel="stylesheet" href="css/slicknav.min.css"/>
 
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/contato.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -78,6 +79,44 @@ include('verifica_login.php');
 		</div>
 	</header>
     <!-- Header section end -->
+
+    <section id="section-contato">
+        <div class="container">
+            <div class="row">  
+                <div class="col-lg-4 mb-5"><h3 align="left">Contato</h3></div>
+                <div class="col-lg">             
+                    <form action="cadastro.php" method="POST">    			 
+                        <div class="row mb-3">
+                            <div class="col-lg-6 mb-3">
+                                <label for="nome">Informe seu nome</label>
+                                <input type="text" name="nome" id="nome" class="col" maxlength="45" required>
+                            </div>
+
+                            <div class="col-lg-6 mb-3">                      
+                                <label for="sobrenome">Informe seu sobrenome</label> 
+                                <input type="text" name="sobrenome" id="sobrenome"class="col" maxlength="45" required>
+                            </div>                       
+                        </div> 
+                        
+                        <div class="row mb-3">
+                            <div class="col-lg mb-3">
+                                <label for="email">Informe seu email</label>
+                                <input type="email" name="email" id="email" class="col" required maxlength="60">
+                            </div>                                    
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col-lg-10 mb-3">
+                                <label for="msg">Escreva sua mensagem</label>
+                                <textarea name="msg" id="msg" cols="55" rows="5"></textarea>
+                            </div>
+                        </div>                 
+                        <button type="submit" class="btn-form">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <!-- Footer section -->
 	<div class="footer-section">
@@ -95,9 +134,7 @@ include('verifica_login.php');
 					<a href="#"><i class="fab fa-instagram"></i><span>instagram</span></a>
 					<a href="#"><i class="fab fa-pinterest"></i><span>pinterest</span></a>
 					<a href="#"><i class="fab fa-facebook"></i><span>facebook</span></a>
-					<!--a href="#"><i class="fa fa-twitter"></i><span>twitter</span></a-->
 					<a href="#"><i class="fab fa-youtube"></i><span>youtube</span></a>
-					<!--a href="#"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a-->
 				</div>
 			</div>
 		</div>
