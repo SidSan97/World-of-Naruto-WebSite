@@ -51,7 +51,7 @@ include('verifica_login.php');
 		<ul class="main-menu">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="characters.html">Sobre Nós</a></li>
-			<li><a href="game.html">Sobre o Jogo</a></li>
+			<li><a href="contato.php">Contato</a></li>
 			<li><a href="Download.php">Download</a></li>			
 			<li><a href="Doador.php">Seja um Doador</a></li>
 		</ul>
