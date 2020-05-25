@@ -1,3 +1,8 @@
+<?php
+session_start();
+include('verifica_login.php');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -44,18 +49,35 @@
 			<img src="img/logo.png" alt="logo">
 		</a>
 		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="characters.html">Sobre Nós</a></li>
-			<li><a href="game.html">Sobre o Jogo</a></li>
+			<li><a href="contato.php">Contato</a></li>
 			<li><a href="Download.php">Download</a></li>			
 			<li><a href="Doador.php">Seja um Doador</a></li>
 		</ul>
 		<div class="header-add">
-			<p>Login/Cadastro</p>
-			<button><a href="login.php"><i class="fas fa-user"></i> Entrar </a></button>
+					<?php
+                    	if(isset($_SESSION['nao_autenticado'])):               
+					?>
+					
+                   <div id="label">
+                    <p>Login/Cadastro</p> <button><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
+                   </div>
+
+                    <?php
+                      else:                      
+                    ?>
+                    <div id="label">
+                     <p> Olá, <?php echo $_SESSION['usuario']; ?></p> <button><a href="logout.php"> <i class="fas fa-user"></i> Sair </a></button>
+                    </div>                                          
+                     
+                    <?php
+                      endif;
+                      unset($_SESSION['nao_autenticado']);
+                    ?>                                               
 		</div>
 	</header>
-	<!-- Header section end -->
+    <!-- Header section end -->
 
 	<!-- Hero section -->
 	<section class="hero-section">

@@ -49,7 +49,7 @@ session_start();
 			<img src="img/logo.png" alt="logo">
 		</a>
 		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>			
+			<li><a href="index.php">Home</a></li>			
 			<li><a href="reviews.html">Download</a></li>
 			<li><a href="single-post.html">Seja um Doador</a></li>
 		</ul>

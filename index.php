@@ -49,7 +49,7 @@ include('verifica_login.php');
 			<img src="img/logo.png" alt="logo">
 		</a>
 		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="characters.html">Sobre Nós</a></li>
 			<li><a href="contato.php">Contato</a></li>
 			<li><a href="Download.php">Download</a></li>			
