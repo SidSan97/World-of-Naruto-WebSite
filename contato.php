@@ -85,23 +85,23 @@ include('verifica_login.php');
             <div class="row">  
                 <div class="col-lg-4 mb-5"><h3 align="left">Contato</h3></div>
                 <div class="col-lg">             
-                    <form action="cadastro.php" method="POST">    			 
+                    <form action="phpmailer.php" method="POST">    			 
                         <div class="row mb-3">
                             <div class="col-lg-6 mb-3">
                                 <label for="nome">Informe seu nome</label>
-                                <input type="text" name="nome" id="nome" class="col" maxlength="45" required>
+                                <input type="text" name="nome" id="nome" class="col" required>
                             </div>
 
                             <div class="col-lg-6 mb-3">                      
-                                <label for="sobrenome">Informe seu sobrenome</label> 
-                                <input type="text" name="sobrenome" id="sobrenome"class="col" maxlength="45" required>
+                                <label for="email">Informe seu email</label> 
+                                <input type="email" name="email" id="email"class="col" required>
                             </div>                       
                         </div> 
                         
                         <div class="row mb-3">
                             <div class="col-lg mb-3">
-                                <label for="email">Informe seu email</label>
-                                <input type="email" name="email" id="email" class="col" required maxlength="60">
+                                <label for="assunto">Informe o assunto</label>
+                                <input type="text" name="assunto" id="assunto" class="col" required>
                             </div>                                    
                         </div>
                         
